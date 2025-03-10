@@ -1,20 +1,15 @@
-[project]
-name = "octopilot"
+[tool.poetry]
+name = "dfghjkl-"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Grishkevich Sergey"}
-]
+authors = ["AGOTI5454 <egor760154@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "moderngl (>=5.12.0,<6.0.0)",
-    "window (>=0.0.3,<0.0.4)",
-    "moderngl (>=5.12.0,<6.0.0)",
-    "moderngl-window (>=3.1.1,<4.0.0)"
-]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyqt5 = "^5.15.11"
 
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
